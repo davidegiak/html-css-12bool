@@ -1,0 +1,53 @@
+.box {
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    font-size: 0.8rem;
+    vertical-align: middle;
+    min-height: 2rem;
+    line-height: 2rem;
+    width: 100%;
+}
+
+.pd-01 {
+    padding: 0.1rem;
+}
+
+.margin-b {
+    margin-bottom: 1rem;
+}
+
+.bg-blue {
+    background-color: #006cfa;
+    border: 1px solid white;
+}
+
+.bg-green {
+    background-color: greenyellow;
+    border: 1px solid #006cfa;
+    height: 100%;
+}
+
+.row {
+    padding: 0.1rem;
+}
+
+@media screen and (min-width:500px) {
+    .container{
+        width: 1000px;
+    }
+}
+
+@media screen and (min-width:600px) {
+    .container{
+        width: 1600px;
+    }
+}
+
+@media screen and (min-width:700px) {
+    .container{
+        width: 100%;
+    }
+}
+
+
